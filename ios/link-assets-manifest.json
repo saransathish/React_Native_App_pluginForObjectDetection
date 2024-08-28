@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/model/efficientdet.tflite",
+      "sha1": "eacdb17aa0f4cfbd5fbeac029167ffe0450a9c07"
+    },
+    {
+      "path": "src/model/my-modal.tflite",
+      "sha1": "f4d867b4df241353b094ba306445f305a1ca8133"
+    }
+  ]
+}
