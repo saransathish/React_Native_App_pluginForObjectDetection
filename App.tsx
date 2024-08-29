@@ -5,8 +5,15 @@ import { useCameraDevice, useCameraPermission } from 'react-native-vision-camera
 import FrameProcessing from './components/FrameProcessing';
 
 function App(): React.JSX.Element {
-  const device = useCameraDevice('back');
-  
+  // const device = useCameraDevice('back');
+
+  const device = useCameraDevice('back', {
+    physicalDevices: [
+      'ultra-wide-angle-camera',
+      'wide-angle-camera',
+      'telephoto-camera'
+    ]
+  })
 
  
   return (
